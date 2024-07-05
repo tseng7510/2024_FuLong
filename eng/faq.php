@@ -36,22 +36,13 @@
 
             <div class="listBox">
               <div class="box">
-                <?php for ($i = 0; $i < 6; $i++) { ?>
+                <?php for ($i = 0; $i < 12; $i++) { ?>
                   <div class="item wow fadeInUp" data-wow-delay="0s">
                     <button type="button" class="qBox">What standards do need to meet?</button>
                     <div class="aBox">If your question can’t be answered with the questions below, please reach out to us using ourIf your question can’t be answered with the questions below, please reach out to us using our</div>
                   </div>
                 <?php } ?>
               </div>
-              <div class="box">
-                <?php for ($i = 0; $i < 6; $i++) { ?>
-                  <div class="item wow fadeInUp" data-wow-delay="0s">
-                    <button type="button" class="qBox">What standards do need to meet?</button>
-                    <div class="aBox">If your question can’t be answered with the questions below, please reach out to us using ourIf your question can’t be answered with the questions below, please reach out to us using our</div>
-                  </div>
-                <?php } ?>
-              </div>
-
 
             </div>
 

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+.html .editor {
+  max-width: 950px;
+  margin: 0 auto;
+  color: #333333;
+  font-size: 1.25rem;
+  line-height: 1.45;
+}
+@media screen and (max-width: 1000px) {
+  .html .editor {
+    font-size: 1.125rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .html .editor {
+    font-size: 1rem;
+  }
+}
+.html .editor ul.style li {
+  position: relative;
+  padding: 5px 0 5px 20px;
+}
+.html .editor ul.style li::before {
+  content: "◆";
+  color: #C61D06;
+  position: absolute;
+  left: 0;
+}
+
+.editor span.title {
+  color: #C61D06;
+  font-weight: 700;
+}/*# sourceMappingURL=html.css.map */

@@ -1,0 +1,199 @@
+.contact .listBox .item {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  justify-content: space-between;
+  margin-bottom: clamp(70px, 10%, 100px);
+}
+@media screen and (max-width: 767px) {
+  .contact .listBox .item {
+    flex-direction: column;
+  }
+}
+.contact .listBox .item .info {
+  max-width: 630px;
+}
+.contact .listBox .item .pic {
+  width: 40%;
+  max-width: 670px;
+  box-shadow: -15px 15px 15px 0 rgba(0, 0, 0, 0.1);
+}
+@media screen and (max-width: 767px) {
+  .contact .listBox .item .pic {
+    margin: 0 auto;
+  }
+}
+.contact .listBox .item .title {
+  display: flex;
+  align-items: flex-start;
+  line-height: 1.1;
+  padding-left: 50px;
+  position: relative;
+  margin-bottom: clamp(20px, 5%, 50px);
+  font-weight: 700;
+  font-size: 2.625rem;
+}
+@media screen and (max-width: 1000px) {
+  .contact .listBox .item .title {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .contact .listBox .item .title {
+    font-size: 1.375rem;
+  }
+}
+.contact .listBox .item .title::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  border-radius: 50% 50%;
+  border: 6px solid #C61D06;
+  filter: drop-shadow(18px 0 0px #C61D06);
+  margin-right: 40px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 14px;
+  left: 0;
+}
+@media screen and (max-width: 1000px) {
+  .contact .listBox .item .title::before {
+    font-size: 2rem;
+    top: 8px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .contact .listBox .item .title::before {
+    font-size: 1.375rem;
+    top: 2px;
+  }
+}
+.contact .listBox .item ul li {
+  color: #333333;
+  font-size: 1.125rem;
+  display: flex;
+  padding: 0 0 0 40px;
+  position: relative;
+}
+@media screen and (max-width: 767px) {
+  .contact .listBox .item ul li {
+    font-size: 1rem;
+  }
+}
+.contact .listBox .item ul li + li {
+  margin-top: clamp(15px, 5%, 30px);
+}
+.contact .listBox .item ul li::before {
+  content: "";
+  width: 23px;
+  height: 23px;
+  background: url("../images/icon/icon_contact.png") top no-repeat;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 5px;
+}
+.contact .listBox .item ul li.address::before {
+  background-position: 0 0;
+}
+.contact .listBox .item ul li.tel::before {
+  background-position: 0 -23px;
+}
+.contact .listBox .item ul li.fax::before {
+  background-position: 0 -46px;
+}
+.contact .listBox .item ul li.mail::before {
+  background-position: 0 -69px;
+}
+.contact .listBox .item ul li a {
+  color: #333333;
+}
+.contact .formBox {
+  background: #FFF;
+  padding-top: clamp(30px, 10%, 100px);
+}
+.contact .formBox .title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 3rem;
+}
+@media screen and (max-width: 1000px) {
+  .contact .formBox .title {
+    font-size: 2.25rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .contact .formBox .title {
+    font-size: 1.5rem;
+  }
+}
+.contact .formBox .info {
+  text-align: center;
+  color: #333333;
+  font-size: 1.25rem;
+}
+@media screen and (max-width: 1000px) {
+  .contact .formBox .info {
+    font-size: 1.125rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .contact .formBox .info {
+    font-size: 1rem;
+  }
+}
+.contact .formBox ul {
+  padding: clamp(30px, 10%, 100px) clamp(30px, 12%, 160px);
+}
+@media screen and (max-width: 1000px) {
+  .contact .formBox ul {
+    padding: 0px;
+  }
+}
+
+.contactOk {
+  text-align: center;
+}
+.contactOk .title {
+  max-width: 570px;
+  margin: 0 auto;
+  line-height: 1.2;
+  font-size: 3rem;
+  margin-bottom: clamp(20px, 5%, 50px);
+}
+@media screen and (max-width: 1000px) {
+  .contactOk .title {
+    font-size: 2.25rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .contactOk .title {
+    font-size: 1.5rem;
+  }
+}
+.contactOk .txt {
+  color: #333333;
+  font-size: 1.125rem;
+}
+@media screen and (max-width: 1000px) {
+  .contactOk .txt {
+    font-size: 1rem;
+  }
+}
+.contactOk .subTitle {
+  color: #C61D06;
+  font-weight: 500;
+  font-size: 1.75rem;
+  margin-bottom: clamp(20px, 5%, 50px);
+}
+@media screen and (max-width: 1000px) {
+  .contactOk .subTitle {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .contactOk .subTitle {
+    font-size: 1.25rem;
+  }
+}/*# sourceMappingURL=contact.css.map */

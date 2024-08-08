@@ -76,6 +76,18 @@
 
       </div>
 
+      <div class="certificate">
+        <div class="container">
+          <div class="pic"><img src="../images/in/h1.png" alt=""></div>
+          <div class="pic"><img src="../images/in/h2.png" alt=""></div>
+          <div class="pic"><img src="../images/in/h3.png" alt=""></div>
+          <div class="pic"><img src="../images/in/h4.png" alt=""></div>
+          <div class="pic"><img src="../images/in/h5.png" alt=""></div>
+          <div class="pic"><img src="../images/in/h6.png" alt=""></div>
+          <div class="pic"><img src="../images/in/h7.png" alt=""></div>
+        </div>
+      </div>
+
       <div class="breadcrumbBox">
         <div class="container">
           <ul class="breadcrumb" itemscope="" itemtype="https://schema.org/BreadcrumbList">

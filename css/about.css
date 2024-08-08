@@ -19,13 +19,13 @@
   }
 }
 .blockTitle::before {
-  content: "";
+  content: '';
   width: 20px;
   height: 20px;
   display: block;
   border-radius: 50% 50%;
-  border: 6px solid #C61D06;
-  filter: drop-shadow(18px 0 0px #C61D06);
+  border: 6px solid #c61d06;
+  filter: drop-shadow(18px 0 0px #c61d06);
   margin-right: 40px;
   flex-shrink: 0;
   position: absolute;
@@ -46,7 +46,8 @@
 }
 
 @media screen and (min-width: 576px) {
-  .about section .listBox .item:nth-of-type(1) .infoBox, .about section .listBox .item:nth-of-type(2) .infoBox {
+  .about section .listBox .item:nth-of-type(1) .infoBox,
+  .about section .listBox .item:nth-of-type(2) .infoBox {
     align-items: flex-start;
   }
 }
@@ -54,7 +55,7 @@
   background: #818181;
 }
 .about section .listBox .item:nth-of-type(4) .info {
-  background: #C61D06;
+  background: #c61d06;
 }
 .about section .listBox .item + .item {
   margin-top: clamp(50px, 10%, 120px);
@@ -101,7 +102,7 @@
   }
 }
 .about section .listBox .infoBox .info ul {
-  color: #FFF;
+  color: #fff;
   list-style: disc;
   padding: 10px 20px;
 }
@@ -118,12 +119,24 @@
     padding: 12px 0;
   }
 }
-
+.about2 .inBanner .container {
+  justify-content: space-between;
+}
+.about2 .mainBox .picBox {
+  margin-bottom: clamp(30px, 5%, 80px);
+  display: flex;
+  gap: 30px;
+}
+@media screen and (max-width: 576px) {
+  .about2 .mainBox .picBox {
+    flex-direction: column;
+  }
+}
 .about2 .mainBox {
   padding-bottom: 0;
 }
 .about2 section .container .description {
-  color: #130A06;
+  color: #130a06;
   font-size: 1.3125rem;
   margin-bottom: clamp(30px, 5%, 80px);
 }
@@ -144,7 +157,7 @@
   opacity: 0.45;
 }
 .about2 .bottom .listBox {
-  background: #1F2025;
+  background: #1f2025;
 }
 .about2 .bottom .bottomTitleBox {
   inset: 0;
@@ -157,7 +170,7 @@
 }
 .about2 .bottom .bottomTitleBox .title {
   font-weight: 900;
-  color: #C61D06;
+  color: #c61d06;
   line-height: 1;
   font-size: 3.375rem;
 }
@@ -172,7 +185,7 @@
   }
 }
 .about2 .bottom .bottomTitleBox .slogan {
-  color: #FFF;
+  color: #fff;
   font-weight: 500;
   line-height: 1;
   font-size: 3rem;
@@ -189,7 +202,7 @@
 }
 
 .about3 section .container .description {
-  color: #130A06;
+  color: #130a06;
   font-size: 1.3125rem;
   margin-bottom: clamp(30px, 5%, 80px);
 }
@@ -213,7 +226,7 @@
 }
 .about3 section .listBox .item {
   width: calc((100% - 34px) / 3);
-  background: #FFF;
+  background: #fff;
 }
 @media screen and (max-width: 1000px) {
   .about3 section .listBox .item {
@@ -251,7 +264,7 @@
   padding-bottom: 45px;
 }
 .about4 .item:not(:last-child) .year::before {
-  content: "";
+  content: '';
   width: 5px;
   height: 5px;
   border-radius: 50%;
@@ -261,7 +274,8 @@
   bottom: -10px;
   left: 50%;
   transform: translateX(-50%);
-  box-shadow: 0 10px 0 0 #000, 0 20px 0 0 #000, 0 30px 0 0 #000, 0 40px 0 0 #000, 0 50px 0 0 #000, 0 60px 0 0 #000, 0 70px 0 0 #000, 0 80px 0 0 #000, 0 90px 0 0 #000, 0 100px 0 0 #000, 0 110px 0 0 #000, 0 120px 0 0 #000, 0 130px 0 0 #000, 0 140px 0 0 #000, 0 150px 0 0 #000, 0 160px 0 0 #000, 0 170px 0 0 #000, 0 180px 0 0 #000, 0 190px 0 0 #000, 0 200px 0 0 #000;
+  box-shadow: 0 10px 0 0 #000, 0 20px 0 0 #000, 0 30px 0 0 #000, 0 40px 0 0 #000, 0 50px 0 0 #000, 0 60px 0 0 #000, 0 70px 0 0 #000, 0 80px 0 0 #000, 0 90px 0 0 #000, 0 100px 0 0 #000, 0 110px 0 0 #000, 0 120px 0 0 #000, 0 130px 0 0 #000, 0 140px 0 0 #000, 0 150px 0 0 #000, 0 160px 0 0 #000,
+    0 170px 0 0 #000, 0 180px 0 0 #000, 0 190px 0 0 #000, 0 200px 0 0 #000;
 }
 .about4 .item:nth-child(1) {
   animation-delay: 0.1s;
@@ -295,8 +309,8 @@
 }
 .about4 .year {
   text-align: center;
-  color: #FFF;
-  background: #C61D06;
+  color: #fff;
+  background: #c61d06;
   aspect-ratio: 1;
   border-radius: 50%;
   display: flex;
@@ -332,4 +346,15 @@
   .about4 .title {
     font-size: 1.125rem;
   }
-}/*# sourceMappingURL=about.css.map */
+}
+.certificate {
+  background: #e8e8e8;
+  padding: 40px 0;
+}
+.certificate .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+/*# sourceMappingURL=about.css.map */
